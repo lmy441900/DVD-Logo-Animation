@@ -1,6 +1,6 @@
 :root {
   --width:250px;
-  --height:calc(var(--width) / 2);
+  --height:var(--width);
 }
 
 
@@ -11,7 +11,7 @@ body {
 .ball {
   width: var(--width);
   height: var(--height);
-  background: url('../dvd.png');
+  background: url('../dvd0.webp');
   background-size: contain;
   background-repeat: no-repeat;
   position:absolute;
